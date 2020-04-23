@@ -1,7 +1,7 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
     .lesson {
-      width: 50%;
+      width: 100%;
       margin-bottom: 50px;
     }
     
@@ -12,12 +12,51 @@
     .heading h2 {
       font-size: 20px;
     }
+    .card {
+    
+      width: 40%;
+      margin: 10px 20px;
+      
+    }
+  
+    .location-wrapper{
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+    .map-logo{
+      top: 2890px;
+      right: 230px;
+      width: 25%;
+    }
+    .maps iframe{
+      width:200%;
+  
+    }
   }
+  
   
   /* Untuk Smartphone */
   @media all and (max-width: 670px) {
     .lesson {
       width: 100%;
+    }
+    .card {
+      width: 60%;
+      margin-bottom: 50px;
+      margin-left: 80px;
+    }
+
+    .location-wrapper{
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .map-logo{
+      top: 3950px;
+      width: 35%;
+    }
+    .maps iframe{
+      width:161%;
+
     }
     
     footer {
